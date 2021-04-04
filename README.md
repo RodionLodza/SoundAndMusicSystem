@@ -28,10 +28,14 @@ namespace SoundAndMusic
 }
 ```
 2. Attach to Assets/SoundAndMusicSystem/Resources/**SoundsAndMusicDB.asset** some sounds and music with enum items.
+
 ![0](WikiImages/1.png)
+
 3. Add to game scene Assets/SoundAndMusicSystem/Prefabs/**SoundAndMusicController.prefab** (better where the game is loading). You can set up audio sources count, sound and music volumes in inspector.
+
 ![1](WikiImages/2.png)
 ![2](WikiImages/3.png)
+
 5. Use API **SoundAndMusicController** for playing sounds and music in your custom scripts.
 ```c#
 using SoundAndMusic;
